@@ -1,0 +1,28 @@
+package elevator;
+import java.awt.geom.*;
+
+
+public class elevator {
+
+    static int floor = 0, choice=0;
+
+    public static void main(String args[])
+    {
+    	
+    	if(floor<choice){
+    		System.out.println("The lift is on its way");
+    		for(int i=floor;i<=choice;i++){
+    			
+    			if(i==choice){
+    				System.out.println("The lift has reached");
+    			}else{
+    				System.out.println("Floor "+i);
+    			}
+    		}	
+    	}else{
+    		System.out.println("You already are on "+choice+" floor");
+    	}
+    }
+}
+
+
