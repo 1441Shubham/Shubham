@@ -19,7 +19,6 @@ public class main {
 		
 		stck.pop();
 		stck.pop();
-		stck.pop();
 	}
 
 }

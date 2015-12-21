@@ -1,11 +1,9 @@
 
 public class stack {
 	
-	int top=-1,maxSize=4;
-	int[] array = new int[maxSize];
+	private int top=-1,maxSize=2;
+	private int[] array = new int[maxSize];
 	
-	
-
 	public boolean isFull(){
 		if(top==maxSize-1){
 			return true;
@@ -40,7 +38,11 @@ public class stack {
 			System.out.println();
 			System.out.println("Push operation failed. Stack is Full.");
 			System.out.println("Item "+ i +" was not pushed in the stack.");
-			display();
+			if(top!=-1){
+				display();
+			}else{
+				System.out.println("Stack became Empty.");
+			}
 	
 		}else{
 			top++;
@@ -61,11 +63,7 @@ public class stack {
 			top--;
 			System.out.println();
 			System.out.println("Poped Element is: "+ popedElement);
-			if(top!=-1){
-				display();
-			}else{
-				System.out.println("Stack became Empty.");
-			}
+			display();
 		}
 		
 	}

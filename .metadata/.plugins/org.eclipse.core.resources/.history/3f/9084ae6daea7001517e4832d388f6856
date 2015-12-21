@@ -1,10 +1,8 @@
 
 public class stack {
 	
-	int top=-1,maxSize=4;
+	int top=-1,maxSize=2;
 	int[] array = new int[maxSize];
-	
-	
 
 	public boolean isFull(){
 		if(top==maxSize-1){

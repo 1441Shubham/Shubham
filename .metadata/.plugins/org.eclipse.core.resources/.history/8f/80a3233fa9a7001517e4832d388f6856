@@ -1,10 +1,14 @@
 
 public class stack {
 	
-	int top=-1,maxSize=4;
-	int[] array = new int[maxSize];
+	int top=-1;
 	
 	
+	public stack(int i) {
+		// TODO Auto-generated constructor stub
+		int maxSize=i;
+		public int[] array = new int[maxSize];
+	}
 
 	public boolean isFull(){
 		if(top==maxSize-1){

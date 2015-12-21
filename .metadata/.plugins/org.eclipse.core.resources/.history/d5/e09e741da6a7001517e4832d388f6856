@@ -5,9 +5,8 @@ public class main {
 		// TODO Auto-generated method stub
 		stack stck=new stack();
 		
-		stck.push(5);
-		stck.push(0);
-		
+		int a=stck.push(5);
+		System.out.println(a);
 		
 		/*a=stck.push(6);
 		System.out.println(a);
@@ -17,8 +16,6 @@ public class main {
 		 a=stck.push(7);
 		System.out.print(a);*/
 		
-		stck.pop();
-		stck.pop();
 		stck.pop();
 	}
 
