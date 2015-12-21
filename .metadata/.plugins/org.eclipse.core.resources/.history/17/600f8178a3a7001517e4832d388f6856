@@ -10,7 +10,6 @@ public class main {
 		 a=stck.push(6);
 		System.out.println(a);
 		
-		stck.display();
 		 a=stck.push(7);
 		System.out.print(a);
 	}
