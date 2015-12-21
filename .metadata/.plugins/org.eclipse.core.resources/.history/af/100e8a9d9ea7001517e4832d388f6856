@@ -1,0 +1,11 @@
+
+public class stack {
+	
+	int num,top=-1;
+	
+	public int push(int i){
+		
+
+		return num;	
+	}
+}

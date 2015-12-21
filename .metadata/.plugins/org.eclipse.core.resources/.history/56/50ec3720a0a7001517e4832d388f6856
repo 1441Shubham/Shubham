@@ -1,0 +1,17 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		stack st=new stack();
+		int a=st.push(5);
+		System.out.println(a);
+		
+		 a=st.push(6);
+		System.out.println(a);
+		
+		 a=st.push(7);
+		System.out.println(a);
+	}
+
+}

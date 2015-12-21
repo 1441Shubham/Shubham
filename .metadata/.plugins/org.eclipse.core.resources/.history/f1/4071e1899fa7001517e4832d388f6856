@@ -1,0 +1,13 @@
+
+public class stack {
+	
+	int top=-1;
+	int[] array = new int[5];
+	
+	public int push(int i){
+		top++;
+		array[top]=i;
+
+		return array[top];	
+	}
+}

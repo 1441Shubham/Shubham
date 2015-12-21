@@ -1,0 +1,24 @@
+
+public class stack {
+	
+	private int top=-1,maxSize=5;
+	private int[] array = new int[maxSize];
+	
+	public boolean isFull(){
+		if(top==maxSize-1){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public int push(int i){
+		if(isFull()){
+			System.out.println("Array Full");
+		}else{
+			top++;
+			array[top]=i;
+		}
+		return array[top];	
+	}
+}
