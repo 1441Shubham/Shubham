@@ -1,0 +1,55 @@
+package elevator;
+import java.util.ArrayList;
+
+public class Elevator {
+	int currentEleFloor;
+	public Elevator(int no_of_floors) {
+		// TODO Auto-generated constructor stub
+		ArrayList elevatorPanel = new ArrayList(no_of_floors);
+		
+		for(int i=0;i<=no_of_floors;i++){
+			elevatorPanel.add(i);
+			
+		}
+		System.out.println(elevatorPanel.indexOf(1));
+		//System.out.println(elevatorPanel);
+		int randomIndex = (int)(Math.random() * elevatorPanel.size());
+		currentEleFloor=(int) elevatorPanel.get(randomIndex);
+	}
+	
+	public void move(int which_floor){
+		
+		if(currentEleFloor<which_floor){	
+			System.out.println("The Elevator is on Moving UP.");
+			
+			for(int i=currentEleFloor;i<=which_floor;i++){
+    			if(i==which_floor){
+    				System.out.println("The lift Reached.");
+    				System.out.println("Doors Opened. Please Enter.");
+    				System.out.println("Doors Closed.");
+    			}else{
+    				System.out.println("Floor "+i);
+    			}
+			}
+			
+		}else if(currentEleFloor>which_floor){
+			System.out.println("The Elevator is Moving Down.");
+			
+			for(int i=currentEleFloor;i>=which_floor;i--){
+    			
+    			if(i==which_floor){
+    				System.out.println("The lift Reached.");
+    				System.out.println("Doors Opened. Please Enter.");
+    				System.out.println("Doors Closed.");
+    			}else{
+    				System.out.println("Floor "+i);
+    			}
+    		}
+		}else{
+			System.out.println("Doors Opened. Please Enter.");
+			System.out.println("Doors Closed.");
+		}
+		
+	}
+
+}

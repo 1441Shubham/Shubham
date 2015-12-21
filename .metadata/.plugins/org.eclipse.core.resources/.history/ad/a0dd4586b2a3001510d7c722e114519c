@@ -1,0 +1,7 @@
+package elevator;
+
+import java.awt.Button;
+
+public class FloorPanel {
+	Button upBtn,downBtn;
+}

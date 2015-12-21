@@ -1,0 +1,23 @@
+package elevator;
+import java.util.ArrayList;
+
+public class elevatorPassanger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int currentFloor;
+		Elevator ele= new Elevator(5);
+		FloorPanel fp=new FloorPanel();
+		
+		ArrayList floorPanel = new ArrayList(5);
+		for(int i=0;i<=5;i++){
+			floorPanel.add(i);
+		}
+		int randomIndex = (int)(Math.random() * floorPanel.size());
+		currentFloor=(int) floorPanel.get(randomIndex);
+		
+		fp.attachElevator(ele,currentFloor);
+		//ele.();
+	}
+
+}

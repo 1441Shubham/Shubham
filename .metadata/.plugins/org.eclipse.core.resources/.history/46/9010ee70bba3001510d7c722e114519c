@@ -1,0 +1,10 @@
+package elevator;
+
+public class FloorPanel {
+	Boolean upBtn,downBtn;
+
+	public void attachElevator(Elevator ele, int i) {
+		// TODO Auto-generated method stub
+		ele.move(i);
+	}
+}
