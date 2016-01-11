@@ -3,16 +3,19 @@ package newFlipkart;
 public class Ecomsite{
 	paymentMethod pay=null;
 	
-	public void choosePayment(String mode){
+	public paymentMethod choosePayment(String mode){
 		if(mode=="Credit"){
 			pay =new CreditCardPayment();
 		}else if(mode=="Debit"){
 			pay =new DebitCardPayment();
 		}else if(mode=="Net"){
 			pay =new NetBankingPayment();
-		}else{
+		}else if(mode=="Cash"){
 			pay =new CashonDelivery();
+		}else{
+			// addd someyhing
 		}
+		return pay;
 	}
 	
 	public void makePayment(Item itm){

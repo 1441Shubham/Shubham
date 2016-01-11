@@ -8,7 +8,7 @@ public class EcomClient {
 		
 		Item itm=new Item("Book",40);
 		
-		ecom.choosePayment("Cash");
+		ecom.choosePayment("Credit");
 		
 		//System.out.println(mode);	
 
