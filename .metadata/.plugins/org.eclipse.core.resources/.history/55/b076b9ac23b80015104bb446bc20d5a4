@@ -1,0 +1,12 @@
+package newFlipkart;
+
+public class dcp implements paymentMethod {
+
+	@Override
+	public void makePayment(int price) {
+		// TODO Auto-generated method stub
+		System.out.println("Credit Card Payment Successfully Done!!!");
+		System.out.println("Thank You..");
+	}
+
+}

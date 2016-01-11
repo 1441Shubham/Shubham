@@ -1,0 +1,9 @@
+
+public class EComsite {
+
+	public void makePayment(Object price) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

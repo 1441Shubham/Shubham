@@ -1,0 +1,12 @@
+package newFlipkart;
+
+public class ccp implements paymentMethod {
+
+	@Override
+	public void makePayment() {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

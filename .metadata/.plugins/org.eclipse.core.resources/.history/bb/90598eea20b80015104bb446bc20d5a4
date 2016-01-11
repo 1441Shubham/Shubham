@@ -1,0 +1,5 @@
+package newFlipkart;
+
+public interface paymentMethod {
+	public void makePayment(paymentMethod mode, int i);
+}

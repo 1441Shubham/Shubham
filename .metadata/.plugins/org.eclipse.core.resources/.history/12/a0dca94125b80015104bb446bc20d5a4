@@ -1,0 +1,12 @@
+package newFlipkart;
+
+public class nbp implements paymentMethod {
+
+	@Override
+	public void makePayment(int price) {
+		// TODO Auto-generated method stub
+		System.out.println("Net Banking Payment Successfully Done!!!");
+		System.out.println("Thank You..");
+	}
+
+}

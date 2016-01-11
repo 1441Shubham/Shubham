@@ -1,0 +1,21 @@
+
+public class Item {
+	int itemPrice;
+	String itm;
+	public Item(String item, int price) {
+		// TODO Auto-generated constructor stub
+		itm=item;
+		itemPrice=price;
+	}
+	
+	public int displayPrice(){
+		return itemPrice;
+	}
+
+	public Object getPrice() {
+
+		// TODO Auto-generated method stub
+		return itemPrice;
+	}
+
+}

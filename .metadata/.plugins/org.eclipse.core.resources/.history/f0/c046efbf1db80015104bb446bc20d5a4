@@ -1,0 +1,5 @@
+package newFlipkart;
+
+public class Ecomsite {
+	paymentMethod pay=null;
+}

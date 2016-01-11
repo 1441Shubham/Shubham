@@ -1,0 +1,9 @@
+
+public class Item {
+
+	public Object getPrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

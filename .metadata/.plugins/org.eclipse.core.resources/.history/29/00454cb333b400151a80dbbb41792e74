@@ -1,0 +1,31 @@
+
+public class EComsite {
+
+	public void makePayment(Object price) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String chosePaymentMethod(String paymentMode) {
+		// TODO Auto-generated method stub
+		
+		switch(paymentMode){
+		case "credit": 
+			break;
+		
+		case "debit":
+			
+			break;
+			
+		case "net":
+			
+			break;
+			
+		case "cash":
+			
+			break;
+		}
+		return "none";
+	}
+
+}

@@ -1,0 +1,18 @@
+package newFlipkart;
+
+public class Ecomsite{
+	paymentMethod pay=null;
+	
+	public paymentMethod choosePayment(String mode){
+		if(mode=="Credit"){
+			pay =new ccp();
+		}else{
+			pay =new dcp();
+		}
+		return pay;
+	}
+	
+	public void makePayment(int price){
+		pay.makePayment(mode, price);
+	}
+}

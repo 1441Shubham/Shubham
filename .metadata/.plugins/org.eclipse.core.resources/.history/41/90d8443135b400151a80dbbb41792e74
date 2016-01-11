@@ -1,0 +1,24 @@
+
+public class EComsite {
+
+	public void makePayment(Object price) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public String chosePaymentMethod(String paymentMode) {
+		// TODO Auto-generated method stub
+		if(paymentMode=="credit" || paymentMode=="Credit"){
+			return "Credit Card";
+		}else if(paymentMode=="debit" || paymentMode=="Debit"){
+			return "Debit Card";
+		}else if(paymentMode=="Net" || paymentMode=="net"){
+			return "Net-Banking";
+		}else if(paymentMode=="Cash" || paymentMode=="cash"){
+			return "Cash on Delivery";
+		}else{
+			return "none";
+		}
+	}
+
+}
