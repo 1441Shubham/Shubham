@@ -1,0 +1,29 @@
+package car;
+
+import java.util.ArrayList;
+
+public class Subsystem implements Car{
+	String name;
+	int totalPrice = 0;
+	
+	ArrayList subSystemsPriceArrayList=new ArrayList();
+	
+	public Subsystem(String subSystemName) {
+		this.name=subSystemName;
+	}
+	
+	
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		
+		
+		return totalPrice;
+	}
+
+	public void addPart(Part part) {
+		subSystemsPriceArrayList.add(part);
+		System.out.println(subSystemsPriceArrayList);
+	}
+
+}

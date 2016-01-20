@@ -1,7 +1,0 @@
-package newFlipkart;
-
-public interface paymentMethod {
-
-	public void makePayment(int price);
-
-}

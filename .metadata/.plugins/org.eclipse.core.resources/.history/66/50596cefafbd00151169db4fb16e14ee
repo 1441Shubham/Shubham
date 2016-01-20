@@ -1,0 +1,33 @@
+package car;
+
+import java.util.ArrayList;
+
+public class main {
+
+	public static void main(String[] args){
+		Car car;
+		
+		ArrayList<Subsystem> subSystemsArrayList=new ArrayList<Subsystem>();
+		
+		subSystemsArrayList.add(new Subsystem("Engine"));
+		subSystemsArrayList.add(new Subsystem("Wheels"));
+		
+		int totalPrice = 0;
+		
+		for(Subsystem subsys:subSystemsArrayList)
+			totalPrice=totalPrice+subsys.getPrice();
+			
+		
+		Subsystem subsystem= new Subsystem("Engine");
+		Subsystem subsystem1= new Subsystem("Wheels");
+		
+		subsystem.addPart(new Part("Wheels",2000));
+		subsystem.addPart(new Part("Tiers",500));
+		
+		subsystem1.addPart(new Part("Wheels",2000));
+		
+		int pr=subsystem.getPrice();
+		
+		System.out.println("The total cost of the Car is: "+pr+"rs");
+	}	
+}

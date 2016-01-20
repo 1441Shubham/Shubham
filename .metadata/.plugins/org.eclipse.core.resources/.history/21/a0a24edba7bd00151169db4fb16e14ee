@@ -1,0 +1,9 @@
+package car;
+
+public class Subsystem {
+	String name;
+	public Subsystem(String subSystemName) {
+		this.name=subSystemName;
+	}
+
+}

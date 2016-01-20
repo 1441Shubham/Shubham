@@ -1,0 +1,9 @@
+package car;
+
+public class main {
+	Car car;
+	
+	Subsystem subsystem= new Subsystem("Engine");
+	Part part= new Part("Wheels",2000);
+
+}

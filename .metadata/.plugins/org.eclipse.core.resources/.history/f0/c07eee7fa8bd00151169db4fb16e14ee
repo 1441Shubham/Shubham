@@ -1,0 +1,23 @@
+package car;
+
+public class Subsystem implements Car{
+	String name;
+	int totalPrice = 0;
+	
+	public Subsystem(String subSystemName) {
+		this.name=subSystemName;
+	}
+	
+	public void addPart(){
+		
+	}
+	
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		
+		
+		return totalPrice;
+	}
+
+}

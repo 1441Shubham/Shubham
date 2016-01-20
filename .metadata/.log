@@ -1232,3 +1232,313 @@ Java Model Exception: Java Model Status [<project root> [in newFlipkart] is not 
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2016-01-11 09:52:01.718
 !MESSAGE <project root> [in newFlipkart] is not on its project's build path
+!SESSION 2016-01-12 09:46:56.199 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-12 09:47:15.623
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = RemoteServiceAdmin, interface = org.osgi.service.remoteserviceadmin.RemoteServiceAdmin, policy = dynamic, cardinality = 0..1, target = null, bind = bindRemoteServiceAdmin, unbind = unbindRemoteServiceAdmin]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-12 09:47:15.633
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = IEndpointDescriptionLocator, interface = org.eclipse.ecf.osgi.services.remoteserviceadmin.IEndpointDescriptionLocator, policy = dynamic, cardinality = 0..1, target = null, bind = bindEndpointDescriptionLocator, unbind = unbindEndpointDescriptionLocator]
+
+!ENTRY org.eclipse.ecf.osgi.services.remoteserviceadmin 4 0 2016-01-12 09:47:17.068
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.osgi.services.remoteserviceadmin;code=4;message=org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator:processInitialLocatorServices:Exception in locator.getServices();severity4;exception=java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator;children=[]]
+!STACK 0
+java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator
+	at org.eclipse.ecf.provider.dnssd.DnsSdDiscoveryContainerAdapter.getServices(DnsSdDiscoveryContainerAdapter.java:83)
+	at org.eclipse.ecf.provider.discovery.CompositeDiscoveryContainer.getServices(CompositeDiscoveryContainer.java:320)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:603)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface 2 0 2016-01-12 09:47:27.889
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-12 09:47:27.890
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@709353b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69c53b72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-12 09:47:27.890
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@768967cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@116fe252,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-01-13 09:49:28.942 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-13 09:49:32.423
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = RemoteServiceAdmin, interface = org.osgi.service.remoteserviceadmin.RemoteServiceAdmin, policy = dynamic, cardinality = 0..1, target = null, bind = bindRemoteServiceAdmin, unbind = unbindRemoteServiceAdmin]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-13 09:49:32.425
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = IEndpointDescriptionLocator, interface = org.eclipse.ecf.osgi.services.remoteserviceadmin.IEndpointDescriptionLocator, policy = dynamic, cardinality = 0..1, target = null, bind = bindEndpointDescriptionLocator, unbind = unbindEndpointDescriptionLocator]
+
+!ENTRY org.eclipse.osgi 2 0 2016-01-13 09:49:39.838
+!MESSAGE While loading class "org.eclipse.ecf.internal.osgi.services.remoteserviceadmin.LogUtility", thread "Thread[ThreadsExecutor(org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5@7a05c367),5,main]" timed out waiting (5018ms) for thread "Thread[Component Resolve Thread,5,main]" to finish starting bundle "org.eclipse.ecf.osgi.services.remoteserviceadmin_4.3.100.v20150810-1719 [1013]". To avoid deadlock, thread "Thread[ThreadsExecutor(org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5@7a05c367),5,main]" is proceeding but "org.eclipse.ecf.internal.osgi.services.remoteserviceadmin.LogUtility" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.ecf.osgi.services.remoteserviceadmin"; type="osgi.bundle"; version:Version="4.3.100.v20150810-1719" [id=1013] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator.logError(EndpointDescriptionLocator.java:354)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator.access$6(EndpointDescriptionLocator.java:353)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:605)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.ecf.osgi.services.remoteserviceadmin 4 0 2016-01-13 09:49:39.901
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.osgi.services.remoteserviceadmin;code=4;message=org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator:processInitialLocatorServices:Exception in locator.getServices();severity4;exception=java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator;children=[]]
+!STACK 0
+java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator
+	at org.eclipse.ecf.provider.dnssd.DnsSdDiscoveryContainerAdapter.getServices(DnsSdDiscoveryContainerAdapter.java:83)
+	at org.eclipse.ecf.provider.discovery.CompositeDiscoveryContainer.getServices(CompositeDiscoveryContainer.java:320)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:603)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface 2 0 2016-01-13 09:49:58.269
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-13 09:49:58.269
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ef7db5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c725dfa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-13 09:49:58.269
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a8cc099,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@756b703d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-01-18 10:45:36.217 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-18 10:45:55.349
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = RemoteServiceAdmin, interface = org.osgi.service.remoteserviceadmin.RemoteServiceAdmin, policy = dynamic, cardinality = 0..1, target = null, bind = bindRemoteServiceAdmin, unbind = unbindRemoteServiceAdmin]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-18 10:45:55.350
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = IEndpointDescriptionLocator, interface = org.eclipse.ecf.osgi.services.remoteserviceadmin.IEndpointDescriptionLocator, policy = dynamic, cardinality = 0..1, target = null, bind = bindEndpointDescriptionLocator, unbind = unbindEndpointDescriptionLocator]
+
+!ENTRY org.eclipse.ecf.osgi.services.remoteserviceadmin 4 0 2016-01-18 10:45:56.727
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.osgi.services.remoteserviceadmin;code=4;message=org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator:processInitialLocatorServices:Exception in locator.getServices();severity4;exception=java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator;children=[]]
+!STACK 0
+java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator
+	at org.eclipse.ecf.provider.dnssd.DnsSdDiscoveryContainerAdapter.getServices(DnsSdDiscoveryContainerAdapter.java:83)
+	at org.eclipse.ecf.provider.discovery.CompositeDiscoveryContainer.getServices(CompositeDiscoveryContainer.java:320)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:603)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface 2 0 2016-01-18 10:46:07.674
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-18 10:46:07.674
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12ef7db5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c725dfa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-18 10:46:07.675
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a8cc099,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@756b703d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2016-01-20 09:53:05.774 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-20 09:53:09.285
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = RemoteServiceAdmin, interface = org.osgi.service.remoteserviceadmin.RemoteServiceAdmin, policy = dynamic, cardinality = 0..1, target = null, bind = bindRemoteServiceAdmin, unbind = unbindRemoteServiceAdmin]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2016-01-20 09:53:09.285
+!MESSAGE Could not bind a reference of component org.eclipse.ecf.mgmt.rsa.discovery.ui.discovery. The reference is: Reference[name = IEndpointDescriptionLocator, interface = org.eclipse.ecf.osgi.services.remoteserviceadmin.IEndpointDescriptionLocator, policy = dynamic, cardinality = 0..1, target = null, bind = bindEndpointDescriptionLocator, unbind = unbindEndpointDescriptionLocator]
+
+!ENTRY org.eclipse.osgi 2 0 2016-01-20 09:53:16.547
+!MESSAGE While loading class "org.eclipse.ecf.internal.osgi.services.remoteserviceadmin.LogUtility", thread "Thread[ThreadsExecutor(org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5@3b6aa68f),5,main]" timed out waiting (5030ms) for thread "Thread[Component Resolve Thread,5,main]" to finish starting bundle "org.eclipse.ecf.osgi.services.remoteserviceadmin_4.3.100.v20150810-1719 [1013]". To avoid deadlock, thread "Thread[ThreadsExecutor(org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5@3b6aa68f),5,main]" is proceeding but "org.eclipse.ecf.internal.osgi.services.remoteserviceadmin.LogUtility" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.ecf.osgi.services.remoteserviceadmin"; type="osgi.bundle"; version:Version="4.3.100.v20150810-1719" [id=1013] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator.logError(EndpointDescriptionLocator.java:354)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator.access$6(EndpointDescriptionLocator.java:353)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:605)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.ecf.osgi.services.remoteserviceadmin 4 0 2016-01-20 09:53:16.577
+!MESSAGE org.eclipse.core.runtime.Status[plugin=org.eclipse.ecf.osgi.services.remoteserviceadmin;code=4;message=org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator:processInitialLocatorServices:Exception in locator.getServices();severity4;exception=java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator;children=[]]
+!STACK 0
+java.lang.UnsupportedOperationException: This is not an IDiscoveryLocator
+	at org.eclipse.ecf.provider.dnssd.DnsSdDiscoveryContainerAdapter.getServices(DnsSdDiscoveryContainerAdapter.java:83)
+	at org.eclipse.ecf.provider.discovery.CompositeDiscoveryContainer.getServices(CompositeDiscoveryContainer.java:320)
+	at org.eclipse.ecf.osgi.services.remoteserviceadmin.EndpointDescriptionLocator$5.run(EndpointDescriptionLocator.java:603)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture$1.run(SingleOperationListenableFuture.java:77)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.concurrent.future.SingleOperationListenableFuture.runWithProgress(SingleOperationListenableFuture.java:65)
+	at org.eclipse.equinox.concurrent.future.ThreadsExecutor$1.run(ThreadsExecutor.java:57)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface 2 0 2016-01-20 09:53:34.507
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-20 09:53:34.507
+!MESSAGE A conflict occurred for ALT+CTRL+U:
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@709353b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+Binding(ALT+CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateCommand,Update,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69c53b72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-01-20 09:53:34.507
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@768967cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@116fe252,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

@@ -1,0 +1,16 @@
+package car;
+
+public class main {
+
+	public static void main(String[] args){
+		Car car;
+		Subsystem subsystem= new Subsystem("Engine");
+		
+		subsystem.addPart(new Part("Wheels",2000));
+		subsystem.addPart(new Part("Tiers",500));
+		
+		int pr=subsystem.getPrice();
+		
+		System.out.println("The total cost of the Car is: "+pr+"rs");
+	}	
+}
