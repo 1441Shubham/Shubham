@@ -1,0 +1,10 @@
+package vehicleFuelTank;
+public class Diesel implements FeulType{
+
+	@Override
+	public void fillTank() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

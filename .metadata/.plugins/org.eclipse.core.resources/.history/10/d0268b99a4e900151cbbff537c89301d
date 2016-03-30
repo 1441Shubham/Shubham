@@ -1,0 +1,13 @@
+package vehicleFuelTank;
+
+public class Vehicle {
+	//vehicleTy pay=null;
+	
+	public void chooseEngineType(String engine){
+		if(engine=="spark ignition"){
+			//pay =new CreditCardPayment();
+		}else if(engine=="compression ignition"){
+			//pay =new DebitCardPayment();
+		}
+	}
+}

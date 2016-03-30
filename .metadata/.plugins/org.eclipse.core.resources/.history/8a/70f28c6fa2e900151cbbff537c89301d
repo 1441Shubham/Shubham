@@ -1,0 +1,20 @@
+package vehicleState;
+
+public class Vehicle {
+	private vehicleState vehicleState;
+	public void applyBrake() {
+		System.out.println("The door is craeted");
+	}
+	
+	public Vehicle()
+	{
+		System.out.println("The door is craeted");
+		this.vehicleState = moving.createMovingState(this);  //this is ex of singlton factory method that creates closed door and assigns closed state
+	}
+	public void changeState(vehicleState v) //set the state to arguments
+	{
+		this.vehicleState=v;
+	}
+
+
+}

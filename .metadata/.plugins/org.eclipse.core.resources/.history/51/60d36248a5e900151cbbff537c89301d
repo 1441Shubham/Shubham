@@ -1,0 +1,11 @@
+package vehicleFuelTank;
+
+public class Petrol implements FeulType{
+
+	@Override
+	public void fillTank() {
+		System.out.println("Your Car tank is being filled with petrol.");
+		
+	}
+
+}

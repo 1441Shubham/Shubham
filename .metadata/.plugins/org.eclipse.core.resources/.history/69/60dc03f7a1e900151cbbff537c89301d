@@ -1,0 +1,10 @@
+package vehicleState;
+
+public class Vehicle {
+
+	public void applyBrake() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

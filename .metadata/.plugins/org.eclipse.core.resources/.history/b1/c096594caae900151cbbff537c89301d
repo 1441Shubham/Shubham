@@ -1,0 +1,33 @@
+package proxyBank;
+
+public class RealImage implements image {
+	int balance = 500;
+
+	   public RealImage(String fileName){
+	      this.fileName = fileName;
+	      loadFromDisk(fileName);
+	   }
+
+
+	   private void loadFromDisk(String fileName){
+	      System.out.println("Loading " + fileName);
+	   }
+
+	@Override
+	public int getBalance() {
+		return balance;
+		
+	}
+
+	@Override
+	public void withdraw(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+	}

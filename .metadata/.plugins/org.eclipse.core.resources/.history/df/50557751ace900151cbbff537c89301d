@@ -1,0 +1,23 @@
+package proxyBank;
+
+public class RealImage implements image {
+	int balance = 500;
+
+	@Override
+	public String getBalance() {
+		return "Your balance is "+balance;
+		
+	}
+
+	@Override
+	public void withdraw(int amount) {
+		System.out.println("Withdraw operation done successfully.");
+		
+	}
+
+	@Override
+	public void deposit(int amount) {
+		System.out.println("diposite operation done successfully.");
+		
+	}
+	}

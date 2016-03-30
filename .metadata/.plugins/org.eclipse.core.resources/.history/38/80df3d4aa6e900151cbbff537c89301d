@@ -1,0 +1,14 @@
+package vehicleFuelTank;
+public class Diesel implements FeulType{
+	
+	private void Diesel(){
+		System.out.println("Your Car engine is of type compression ignition.");
+	}
+
+	@Override
+	public void fillTank() {
+		System.out.println("Your Car tank is being filled with Diesel.");
+		
+	}
+
+}

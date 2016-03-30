@@ -1,0 +1,17 @@
+package proxyBank;
+
+public class client {
+	
+	   public static void main(String[] args) {
+		   ProxyBank bank = new ProxyBank();
+		   
+		   RealBank bank1 = new RealBank();
+
+		   bank1.getBalance();
+		   //bank.setlogin("logged");
+	      
+		   //bank1.getBalance();
+		   //bank.withdraw(50);
+		   //bank.deposit(100);	
+	   }
+	}

@@ -1,0 +1,29 @@
+package vehicleState;
+
+public class moving extends vehicleState{
+
+private static moving idleinstance;
+
+	private moving(Vehicle v)
+	{
+		setDoor(v);
+	}
+
+	@Override
+	public void applyBrake() {
+		System.out.println("The car is stopped");
+		
+	}
+	
+	public static moving createMovingState(Vehicle v)
+	{
+		if(idleinstance == null){
+			idleinstance = new moving(v);
+			System.out.println("Moving State Instance Created");
+		}
+			
+		System.out.println("The car is now in moving state");
+		return idleinstance;
+	}
+
+}

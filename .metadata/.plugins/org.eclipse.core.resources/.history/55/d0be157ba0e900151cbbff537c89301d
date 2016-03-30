@@ -1,0 +1,13 @@
+package vehicleState;
+
+public class idle extends vehicleState{
+
+private static idle idleinstance;
+
+	@Override
+	public void applyBrake() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

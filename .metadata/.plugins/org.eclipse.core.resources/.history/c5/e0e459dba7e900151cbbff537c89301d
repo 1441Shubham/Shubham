@@ -1,0 +1,14 @@
+package vehicleFuelTank;
+
+public class vehicleClient {
+	
+	public static void main(String[] args) {
+		Vehicle v=new Vehicle();
+		
+		v.setEngineType("spark ignition");
+		
+		v.getFuel();
+
+	}
+
+}

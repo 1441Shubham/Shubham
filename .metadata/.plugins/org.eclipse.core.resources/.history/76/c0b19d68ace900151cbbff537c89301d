@@ -1,0 +1,15 @@
+package proxyBank;
+
+public class client {
+	
+	   public static void main(String[] args) {
+		   ProxyImage image = new ProxyImage();
+
+	      image.getBalance();
+	      image.setlogin("logged");
+	      
+	      image.getBalance();
+	      image.withdraw(50);
+	      image.deposit(100);	
+	   }
+	}

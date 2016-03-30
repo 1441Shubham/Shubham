@@ -1,0 +1,19 @@
+package proxyBank;
+
+public class client {
+	
+	   public static void main(String[] args) {
+		   ProxyImage image = new ProxyImage();
+
+	      //image will be loaded from disk
+	      //image.display();
+	      image.getBalance();
+	      image.setlogin("logged in");
+	      System.out.println("");
+	      image.getBalance();
+	      image.withdraw(50);
+	      image.deposit(100);
+	      //image will not be loaded from disk
+	      //image.display(); 	
+	   }
+	}

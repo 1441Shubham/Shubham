@@ -1,0 +1,41 @@
+package proxyBank;
+
+public class ProxyImage implements image{
+
+ String login = null;
+
+/*
+	   @Override
+	   public void display() {
+	      if(realImage == null){
+	         realImage = new RealImage(fileName);
+	      }
+	      realImage.display();
+	   }
+*/
+
+	public void setlogin(String l){
+		this.login = l;
+	}
+	public String getBalance() {
+		if(login == null){
+			System.out.println("Please Login!!");
+		}
+		return login;
+		//return balance;
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdraw(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit(int amount) {
+		// TODO Auto-generated method stub
+		
+	}
+	}

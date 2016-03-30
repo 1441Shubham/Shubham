@@ -1,0 +1,15 @@
+package vehicleFuelTank;
+
+public class Petrol implements FeulType{
+	
+	public void Petrol(){
+		System.out.println("Your Car engine is of type spark ignition.");
+	}
+
+	@Override
+	public void fillTank() {
+		System.out.println("Your Car tank is being filled with petrol.");
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package vehicleFuelTank;
+
+public class vehicleClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

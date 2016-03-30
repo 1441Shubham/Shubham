@@ -9,8 +9,6 @@ public class EcomClient {
 		Item itm=new Item("Book",40);
 		
 		ecom.choosePayment("Cash");
-		
-		//System.out.println(mode);	
 
 		ecom.makePayment(itm);
 	}

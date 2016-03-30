@@ -1,0 +1,20 @@
+package vehicleFuelTank;
+
+public class Vehicle {
+	FeulType fuel=null;
+	
+	public void chooseEngineType(String engine){
+		if(engine=="spark ignition"){
+			fuel =new Petrol();
+		}else if(engine=="compression ignition"){
+			fuel =new Diesel();
+		}else{
+			
+		}
+	}
+
+	public void fillTank() {
+		fuel.fillTank();
+		
+	}
+}

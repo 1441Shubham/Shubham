@@ -1,0 +1,5 @@
+package proxyBank;
+
+public interface image {
+	   void display();
+	}

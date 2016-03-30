@@ -1,0 +1,40 @@
+package proxyBank;
+
+public class ProxyBank implements bank{
+
+ String login = null;
+	String bal = null;
+ private RealBank obj;
+
+	public void setlogin(String l){
+		this.login = l;
+	}
+	
+	public void getBalance() {
+		if(login == null){
+			System.out.println("Please Login!!");
+		}else{
+			System.out.println(obj.getBalance());
+		}
+		
+	}
+
+	@Override
+	public void withdraw(int amount) {
+		if(login == null){
+			System.out.println("Please Login!!");
+		}else{
+			 obj.withdraw(50);
+		}
+		
+	}
+
+	@Override
+	public void deposit(int amount) {
+		if(login == null){
+			System.out.println("Please Login!!");
+		}else{
+			 obj.deposit(50);
+		}
+	}
+	}

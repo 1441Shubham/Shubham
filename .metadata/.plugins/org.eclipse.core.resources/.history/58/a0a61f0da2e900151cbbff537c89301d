@@ -1,0 +1,16 @@
+package vehicleState;
+
+public class Vehicle {
+
+	public void applyBrake() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public void changeState(vehicleState v) //set the state to arguments
+	{
+		this.vehicleState=v;
+	}
+
+
+}

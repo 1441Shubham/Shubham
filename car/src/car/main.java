@@ -19,17 +19,23 @@ public class main {
 		
 		Subsystem subsystem= new Subsystem("Engine");
 		Subsystem subsystem1= new Subsystem("Wheels");
+		Subsystem subsystem2= new Subsystem("Wheel");
 		
 		subsystem.addPart(new Part("Wheels",2000));
 		subsystem.addPart(new Part("Nuts",5000));
 		subsystem.addPart(new Part("Tiers",500));
 		
 		subsystem1.addPart(new Part("Wheels",2000));
+		subsystem2.addPart(subsystem1);
 		
-		int pr=subsystem.getPrice();
-		int pr1=subsystem1.getPrice();
+		subsystem.getChilds();
+		subsystem1.getChilds();
+		subsystem2.getChilds();
 		
-		int price=pr+pr1;
-		System.out.println("The total cost of the Car is: "+price+"rs");
+		//int pr=subsystem.getPrice();
+		//int pr1=subsystem1.getPrice();
+		
+		//int price=pr+pr1;
+		//System.out.println("The total cost of the Car is: "+price+"rs");
 	}	
 }

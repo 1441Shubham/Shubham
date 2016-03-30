@@ -1,0 +1,23 @@
+package proxyBank;
+
+public class RealBank implements bank {
+	int balance = 500;
+
+	@Override
+	public int getBalance() {
+		return balance;
+		
+	}
+
+	@Override
+	public void withdraw(int amount) {
+		System.out.println("Withdraw operation done successfully.");
+		
+	}
+
+	@Override
+	public void deposit(int amount) {
+		System.out.println("diposite operation done successfully.");
+		
+	}
+	}
